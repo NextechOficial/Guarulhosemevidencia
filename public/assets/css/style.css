@@ -1,0 +1,51 @@
+:root{
+    --fundo-1: #00007D;
+    --fundo-2: #0C0C0C;
+    --fundo-3: #E1E2FE;
+    --fundo-4: #E9E9E9;
+    --fundo-5: #D9D9D9;
+    --texto-1: #0167F6;
+    --texto-2: #FFFFFF;
+    --texto-3: #000040;
+    --texto-4: #130060;
+    --texto-5: #F70404;
+    --texto-6: #FF7A00;
+}
+
+header{
+    height: 500px;
+    background-image: url(../images/teste.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header nav li{
+    margin-right: 3vw;
+}
+
+
+header img{
+    width: 40vw;
+}
+
+
+.separador{
+    height: 5px;
+    background-color: red;
+    border: none;
+}
+
+
+@media only screen and (max-width: 600px) {
+    header{
+        height: 500px;
+        background-image: url(../images/teste.png);
+        background-position: right;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    header img{
+        width: 70vw;
+    }
+  }
